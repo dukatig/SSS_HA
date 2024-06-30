@@ -1,8 +1,8 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
 <div class="container-fluid">
-        <!-- <a class="navbar-brand" href="/">
-            {{Auth::check() ? Auth::user()->name : 'Example App'}}
-        </a> -->
+        <a class="navbar-brand" href="/">
+            {{Auth::check() ? Auth::user()->name : 'CAROZZA APP'}}
+        </a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
@@ -23,7 +23,7 @@
             Add New
           </a>
         </li>
-        <!-- @guest
+        @guest
           <li class="nav-item">
             <a class="nav-link" href="/login">Log in to your account</a>
           </li>
@@ -33,7 +33,7 @@
             @csrf
             <button class="nav-link" type="submit">Log out</button>
           </form>
-          @endauth -->
+          @endauth
       </ul>
     </div>
   </div>
